@@ -14,18 +14,26 @@ return [0, 1].
 """
 
 
-def two_sum(nums: list, target: int) -> list:
-    seen = {}
-    for i, v in enumerate(nums):
-        remaining = target - v
-        # if remainder is already in seen dict, return value (index) in dict corresponding to
-        # remainder value (key) plus the index corresponding to the current value, v (as a list)
-        if remaining in seen:
-            return [seen[remaining], i]
-        seen[v] = i
-        print(seen)
-    return []
+class Solution(object):
+
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        seen = {}
+        for i, v in enumerate(nums):
+            remaining = target - v
+            # if remainder is already in seen dict, return value (index) in dict corresponding to
+            # remainder value (key) plus the index corresponding to the current value, v (as a list)
+            if remaining in seen:
+                return [seen[remaining], i]
+            seen[v] = i
+        return []
 
 
-print(two_sum([3, 2, 4], 7))
+if __name__ == "__main__":
+
+    print(Solution().twoSum([3, 2, 4], 7))
 
