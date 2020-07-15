@@ -14,7 +14,7 @@ Explanation:
 -------------
 There are 8 negatives number in the matrix.
 """
-# import numpy as np
+import numpy as np
 
 
 class Solution(object):
@@ -62,13 +62,13 @@ class Solution(object):
         return counter
 
 
-# class Solution(object):
-#     def countNegatives(self, grid):
-#         """
-#         :type grid: List of Lists
-#         :rtype: Integer
-#         """
-#         return np.sum(np.matrix(grid) < 0)
+class Solution(object):
+    def countNegatives(self, grid):
+        """
+        :type grid: List of Lists
+        :rtype: Integer
+        """
+        return np.sum(np.matrix(grid) < 0)
 
 
 if __name__ == "__main__":
