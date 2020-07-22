@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="557b0342-511e-423f-966f-9bbe1eb4b829" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/easy/reverse-words-in-string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy/minimum-absolute-difference.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/easy/reverse-words-in-string.py">
+        <entry file="file://$PROJECT_DIR$/easy/minimum-absolute-difference.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="787">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -55,6 +55,7 @@
         <option value="$PROJECT_DIR$/easy/squared-of-sorted-array.py" />
         <option value="$PROJECT_DIR$/easy/unique-num-occurrences.py" />
         <option value="$PROJECT_DIR$/easy/reverse-words-in-string.py" />
+        <option value="$PROJECT_DIR$/easy/minimum-absolute-difference.py" />
       </list>
     </option>
   </component>
@@ -70,6 +71,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,7 +97,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,7 +116,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="reverse-words-in-str" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="minimum-abs-diff" type="PythonConfigurationType" factoryName="Python">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +128,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/easy/reverse-words-in-string.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/easy/minimum-absolute-difference.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +155,7 @@
     <frame x="115" y="27" width="1272" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.30569106" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.3105691" />
       <window_info id="Structure" order="1" sideWeight="0.5010799" side_tool="true" weight="0.28617886" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -287,8 +288,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/easy/reverse-words-in-string.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy/minimum-absolute-difference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
